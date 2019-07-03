@@ -45,8 +45,6 @@ check_apache () {
         LOG="$($TIME)_apache_mon.log"
         $ECHO "$($TIME) - $HOST not available\n---------------" >> $LOG
         apache_stop "$LOG"
-    else
-        >/dev/null
     fi
 }
 while :; do

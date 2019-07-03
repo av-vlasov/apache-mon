@@ -1,2 +1,2 @@
-./*.log
-./users.var
+*.[log]
+/users.var

@@ -6,11 +6,11 @@ TIME="date +%F_%T"
 # Main #
 DIR=$(pwd)
 # User vars #
-HOST='localhost'
+USER_VARS="$DIR/users.var"
+source $USER_VAR
 ###
 send_mail () {
     LOG=$1
-    MAIL_LIST=""
     for MAIL in $MAIL_LIST
     do
         cat $LOG | mail -s "$($TIME) apache restart in $(hostname)" $MAIL

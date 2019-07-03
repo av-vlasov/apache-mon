@@ -1,11 +1,11 @@
 # apache-mon
-# autor av-vlasov
+***autor:*** *av-vlasov*
 ## Variable ##
 ### Command ###
 ECHO = echo -e 
-TIME = YYYY-mm-dd_HH:MM:SS - дата и время
-DIR = `pwd` - текущая директория
-HOST = адрес для проверки
+TIME = YYYY-mm-dd_HH:MM:SS - дата и время \
+DIR = `pwd` - текущая директория \
+HOST = адрес для проверки 
 ## Function ##
 ### send_mail ###
  отправка почты всем из списка MAIL_LIST

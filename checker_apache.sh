@@ -15,6 +15,7 @@ send_mail () {
     do
         cat $LOG | mail -s "$($TIME) apache restart in $(hostname)" $MAIL
     done
+    find $DIR -type f -name "*.log" -mtype +2 -exec rm '{}' \; 2>/dev/null
 }
 apache_start () {
     LOG=$1

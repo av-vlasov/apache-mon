@@ -1,5 +1,5 @@
 # apache-mon
-# autor av-vlasov
+-*autor:* av-vlasov-
 ## Variable ##
 ### Command ###
 ECHO = echo -e 

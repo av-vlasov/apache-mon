@@ -1,11 +1,14 @@
 # apache-mon
 ***autor:*** *av-vlasov*
+### Configarion ###
+rename file users.var in users.var.cfg \
+HOST= имя хоста для мониторинга; \
+MAIL_LIST - список e-mail для отправки отчета, через пробел.
 ## Variable ##
 ### Command ###
 ECHO = echo -e 
 TIME = YYYY-mm-dd_HH:MM:SS - дата и время \
-DIR = `pwd` - текущая директория \
-HOST = адрес для проверки 
+DIR = `pwd` - текущая директория 
 ## Function ##
 ### send_mail ###
  отправка почты всем из списка MAIL_LIST \

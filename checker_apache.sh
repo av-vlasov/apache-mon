@@ -6,7 +6,7 @@ TIME="date +%F_%T"
 # Main #
 DIR=$(pwd)
 # User vars #
-USER_VAR="$DIR/users.var"
+USER_VAR="$DIR/users.var.cfg"
 source $USER_VAR
 ###
 send_mail () {
